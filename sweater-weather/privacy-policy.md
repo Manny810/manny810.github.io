@@ -10,29 +10,31 @@ Sweater Weather tells you what to wear. It does its work on your iPhone, with no
 
 ## The short version
 
-- Your location goes to Apple, to get your forecast and the name of your city. Nothing else about you leaves your iPhone through the app.
+- Your location goes to Apple, to get your forecast and the name of your city. Sweater Weather's widgets can send it too, to keep their forecast fresh. Nothing else about you leaves your iPhone through the app.
 - Your temperature preferences, your answers and your last forecast stay on your iPhone.
 - There are no accounts, analytics, ads or tracking, and no code from other companies. We don't sell or share anything, because we never get it.
 
 ## Your location
 
-- Sweater Weather asks for your location only while you're using the app, never in the background.
+- Sweater Weather asks for your location only while you're using the app. It never tracks where you go.
 - To get your forecast, it sends your location's coordinates to Apple's WeatherKit weather service.
 - When you're somewhere new (your first time, or more than 25 miles from the last place), it also sends the coordinates to Apple's location service to look up your city's name.
 - It remembers that last location and city on your iPhone, so it can show your weather right away the next time you open it.
+- **Widgets:** if you add a Sweater Weather widget and let widgets use your location (in your iPhone's Settings app, Sweater Weather's location set to "While Using the App or Widgets"), a widget on your screen can get your location when the forecast it has is more than an hour old. It sends the coordinates to WeatherKit for a fresh forecast. It doesn't look up your city or save your location, and it keeps that forecast only while it's running.
 - Apple handles these requests under [Apple's Privacy Policy](https://www.apple.com/legal/privacy/). We don't receive them.
 - If you'd rather not share your location, the app can't get your weather. You can change your mind anytime in your iPhone's Settings app.
 
-That's why the App Store lists Location under "Data Not Linked to You": it's used only to get your weather, and the app sends nothing that identifies you along with it.
+That's why the App Store lists Location under "Data Not Linked to You": it's used only to get your weather, and neither the app nor its widgets send anything that identifies you along with it.
 
 ## What stays on your iPhone
 
 - **Your temperature preferences:** the temperature each outfit starts at, and how many answers have adjusted each one.
 - **Your days:** for each day the app gets your weather, the date, the feels-like temperature and what we suggested, plus your answer if you give one (one a day at most) and whether you answered in the app or from the check-in.
-- **Your last forecast:** the weather, what we suggested for it, and your city's name, so the app opens with something useful.
+- **Your last forecast:** the weather and your city's name, so the app opens with something useful.
+- **What the widgets read:** a copy of your temperature preferences and your last forecast's weather, so they can show what to wear.
 - **A few settings,** like whether you've finished setup and whether the evening check-in is on, and your last location (above).
 
-All of this stays in Sweater Weather's own storage on your iPhone, which only Sweater Weather can open. It isn't synced to iCloud. Like any app's data, it's included in your iPhone backups if you back up.
+All of this stays in Sweater Weather's own storage on your iPhone, which only Sweater Weather and its widgets can open. The widgets only read it; they never change anything. It isn't synced to iCloud. Like any app's data, it's included in your iPhone backups if you back up.
 
 ## Notifications
 
@@ -48,12 +50,12 @@ If you've turned on Share With App Developers in your iPhone's Settings → Priv
 
 ## Other requests to Apple
 
-The app shows the Apple Weather logo at the bottom of its main screen and in Settings, and gets it from Apple. Those requests don't include your location. The "Legal Attribution" and "Privacy Policy" links open in your browser.
+The app shows the Apple Weather logo at the bottom of its main screen and in Settings, and so does its home screen widget. They get it from Apple, and those requests don't include your location. The "Legal Attribution" and "Privacy Policy" links open in your browser.
 
 ## Deleting your information
 
 - **Settings → Reset to Defaults** puts every temperature back where it started and erases your days and answers. If the app is showing up-to-date weather from today, it then starts today over, with what it suggests for today and no answer yet.
-- **Deleting Sweater Weather** erases everything it stored on your iPhone, including your last location and forecast.
+- **Deleting Sweater Weather** erases everything it stored on your iPhone, including your last location and forecast, and removes its widgets.
 
 If the app's storage ever can't be opened, Sweater Weather sets the unreadable copy aside on your iPhone and starts fresh. Reset to Defaults doesn't erase a copy set aside like that; deleting the app does.
 
