@@ -4,7 +4,7 @@ title: Sweater Weather Privacy Policy
 
 # Sweater Weather Privacy Policy
 
-**Effective October 3, 2026**
+**Effective October 4, 2026**
 
 Sweater Weather tells you what to wear. It does its work on your iPhone, with no account and no server of ours, so we never see your information. Here's exactly what the app does with it.
 
@@ -20,7 +20,7 @@ Sweater Weather tells you what to wear. It does its work on your iPhone, with no
 - To get your forecast, it sends your location's coordinates to Apple's WeatherKit weather service.
 - When you're somewhere new (your first time, or more than 25 miles from the last place), it also sends the coordinates to Apple's location service to look up your city's name.
 - It remembers that last location and city on your iPhone, so it can show your weather right away the next time you open it.
-- **Widgets:** if you add a Sweater Weather widget and let widgets use your location (in your iPhone's Settings app, Sweater Weather's location set to "While Using the App or Widgets"), a widget on your screen can get your location when the forecast it has is more than an hour old. It sends the coordinates to WeatherKit for a fresh forecast. It doesn't look up your city or save your location, and it keeps that forecast only while it's running.
+- **Widgets:** if you add a Sweater Weather widget and let widgets use your location (in your iPhone's Settings app, Sweater Weather's location set to "While Using the App or Widgets"), a widget on your screen can get your location when the forecast it has is three hours old. It sends the coordinates to WeatherKit for a fresh forecast. It doesn't look up your city or save your location, and it keeps that forecast only while it's running.
 - Apple handles these requests under [Apple's Privacy Policy](https://www.apple.com/legal/privacy/). We don't receive them.
 - If you'd rather not share your location, the app can't get your weather. You can change your mind anytime in your iPhone's Settings app.
 
@@ -50,7 +50,7 @@ If you've turned on Share With App Developers in your iPhone's Settings → Priv
 
 ## Other requests to Apple
 
-The app shows the Apple Weather logo at the bottom of its main screen and in Settings, and so does its home screen widget. They get it from Apple, and those requests don't include your location. The "Legal Attribution" and "Privacy Policy" links open in your browser.
+The app shows the Apple Weather logo in Settings, under Weather Data. It gets the logo from Apple, and those requests don't include your location. The widgets don't download anything but the weather. The "Legal Attribution" and "Privacy Policy" links open in your browser.
 
 ## Deleting your information
 

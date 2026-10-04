@@ -13,6 +13,7 @@ Questions, problems or ideas: email [manny@busco.dev](mailto:manny@busco.dev). I
 ## Quick answers
 
 - **No weather showing?** Sweater Weather needs your location to find your weather. Turn it on for Sweater Weather in your iPhone's Settings app, then come back to the app.
+- **Widget says "No recent weather"?** The widget only suggests an outfit from a forecast less than six hours old. Open Sweater Weather to get a fresh one, and the widget picks it up. To let the widget keep its forecast fresh on its own, set Sweater Weather's location to "While Using the App or Widgets" in your iPhone's Settings app.
 - **Suggestions feel off?** Answer "How'd we do?" on the main screen, or turn on the evening check-in in Settings. Each "Too cold" or "Too warm" moves the temperatures a little. You can also set them yourself in Settings → Temperature Preferences.
 - **Want to start over?** Settings → Reset to Defaults puts every temperature back where it started and clears your answers.
 
