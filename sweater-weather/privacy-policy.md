@@ -4,7 +4,7 @@ title: Sweater Weather Privacy Policy
 
 # Sweater Weather Privacy Policy
 
-**Effective October 4, 2026**
+**Effective October 6, 2026**
 
 Sweater Weather tells you what to wear. It does its work on your iPhone, with no account and no server of ours, so we never see your information. Here's exactly what the app does with it.
 
@@ -57,7 +57,7 @@ The app shows the Apple Weather logo in Settings, under Weather Data. It gets th
 - **Settings → Reset to Defaults** puts every temperature back where it started and erases your days and answers. If the app is showing up-to-date weather from today, it then starts today over, with what it suggests for today and no answer yet.
 - **Deleting Sweater Weather** erases everything it stored on your iPhone, including your last location and forecast, and removes its widgets.
 
-If the app's storage ever can't be opened, Sweater Weather sets the unreadable copy aside on your iPhone and starts fresh. Reset to Defaults doesn't erase a copy set aside like that; deleting the app does.
+If the app's storage ever turns out to be unreadable, Sweater Weather sets that copy aside on your iPhone and starts fresh. If it can't be opened for a reason that may pass, the app leaves it where it is, uses temporary storage until the next time it starts (answers and temperature changes you make in the meantime aren't kept), and tries again then; after three tries in a row that fail, it sets the copy aside and starts fresh too. A newer copy set aside replaces an older one. Reset to Defaults doesn't erase a copy set aside like that; deleting the app does.
 
 ## Children
 
