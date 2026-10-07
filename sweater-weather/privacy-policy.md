@@ -4,7 +4,7 @@ title: Sweater Weather Privacy Policy
 
 # Sweater Weather Privacy Policy
 
-**Effective October 6, 2026**
+**Effective October 7, 2026**
 
 Sweater Weather tells you what to wear. It does its work on your iPhone, with no account and no server of ours, so we never see your information. Here's exactly what the app does with it.
 
@@ -18,7 +18,7 @@ Sweater Weather tells you what to wear. It does its work on your iPhone, with no
 
 - Sweater Weather asks for your location only while you're using the app. It never tracks where you go.
 - To get your forecast, it sends your location's coordinates to Apple's WeatherKit weather service.
-- When you're somewhere new (your first time, or more than 25 miles from the last place), it also sends the coordinates to Apple's location service to look up your city's name.
+- When you're somewhere new (your first time, or more than 25 miles from the last place), it also sends the coordinates to Apple's location service to look up your city's name. If that lookup doesn't work, it tries again the next time it gets your weather there.
 - It remembers that last location and city on your iPhone, so it can show your weather right away the next time you open it.
 - **Widgets:** if you add a Sweater Weather widget and let widgets use your location (in your iPhone's Settings app, Sweater Weather's location set to "While Using the App or Widgets"), a widget on your screen can get your location when the forecast it has is three hours old. It sends the coordinates to WeatherKit for a fresh forecast. It doesn't look up your city or save your location, and it keeps that forecast only while it's running.
 - Apple handles these requests under [Apple's Privacy Policy](https://www.apple.com/legal/privacy/). We don't receive them.
